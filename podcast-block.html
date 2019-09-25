@@ -181,6 +181,7 @@
     .link:hover{
       background-color: #6D91FF;
       text-shadow: 1px 2px 2px #132f81;
+      border-radius: 5px;
       }
     .subscribe{
       text-align: center;
@@ -202,6 +203,7 @@
       }
     h2{
       white-space: nowrap;
+      text-overflow: ellipsis;
       }
     .link-text {
       white-space: nowrap;
@@ -217,5 +219,8 @@
       width: 40px;
       text-align: left;
       white-space: nowrap;
+    }
+    @media only screen and (max width: 600px){
+      background-color: red;
     }
     </style>
