@@ -92,77 +92,70 @@
 
     <div class="pod-links-2">
       <h2 class="subscribe">Subscribe to Open Encounters</h2>
-      <table>
+      <table align="center">
         <tr>
           <td>
             <div class="link">
-               <li>
-                 <svg class="icon-podcast"><use xlink:href="#icon-podcast"></use></svg>
-                 <div class="link-text">
-                   <a href="https://podcasts.apple.com/us/podcast/open-encounters/id1475643750?l" rel="noopener noreferrer" target="_blank">
+              <svg class="icon-podcast"><use xlink:href="#icon-podcast"></use></svg>
+                <div class="link-text">
+                  <a href="https://podcasts.apple.com/us/podcast/open-encounters/id1475643750?l" rel="noopener noreferrer" target="_blank">
                      Apple Podcasts
-                   </a>
-                 </div>
-               </li>
-              </div>
+                  </a>
+                </div>
+            </div>
           </td>
           <td>
             <div class="link">
-              <li><svg class="icon-stitcher"><use xlink:href="#icon-stitcher"></use></svg>
+              <svg class="icon-stitcher"><use xlink:href="#icon-stitcher"></use></svg>
                 <div class="link-text">
                   <a href="https://www.stitcher.com/podcast/migrants-of-the-mediterranean/open-encounters?refid=stpr" rel="noopener noreferrer" target="_blank">
                     Stitcher
                   </a>
                 </div>
-              </li>
             </div>
           </td>
         </tr>
         <tr>
           <td>
             <div class="link">
-             <li><svg class="icon-play"><use xlink:href="#icon-play"></use></svg>
+             <svg class="icon-play"><use xlink:href="#icon-play"></use></svg>
                <div class="link-text">
                  <a href="https://play.google.com/music/listen?u=0#/ps/I7uhrpk3q6hpoa3qboqavc2omly" rel="noopener noreferrer" target="_blank">
                    Google Play
                  </a>
                </div>
-             </li>
             </div>
           </td>
           <td>
             <div class="link">
-              <li><svg class="icon-heart"><use xlink:href="#icon-heart"></use></svg>
+              <svg class="icon-heart"><use xlink:href="#icon-heart"></use></svg>
                 <div class="link-text">
                   <a href="https://www.iheart.com/podcast/269-open-encounters-48876767/" rel="noopener noreferrer" target="_blank">
                     iHeartRadio
                   </a>
                 </div>
-              </li>
             </div>
           </td>
         </tr>
         <tr>
           <td>
             <div class="link">
-              <li><svg class="icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
+              <svg class="icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
                 <div class="link-text">
                   <a href="https://open.spotify.com/show/2mgEkrWo9E3TVYphFDsRI8" rel="noopener noreferrer" target="_blank">
                     Spotify
                   </a>
                 </div>
-            </li>
             </div>
           </td>
           <td>
             <div class="link">
-              <li><svg class="icon-RSS"><use xlink:href="#icon-RSS"></use></svg>
+              <svg class="icon-RSS"><use xlink:href="#icon-RSS"></use></svg>
                 <div class="link-text">
                   <a href="https://feeds.transistor.fm/open-encounters" rel="noopener noreferrer" target="_blank">
                     RSS
                   </a>
                 </div>
-              </li>
             </div>
           </td>
         </tr>
@@ -176,20 +169,21 @@
     .pod-links-2 {
       background-color: #132f81;
       text-shadow: 1px 2px 2px #6D91FF;
-      display: table;
+      display: flex-wrap;
       justify-content: center;
-      height: 25%;
+      height: 42%;
       width: 100%;
       border-radius: 10px;
       }
-    li {
+    .link {
       color: white;
       font-size: 40px;
       white-space: nowrap;
       transition: all 0.3s ease;
       height: 50px;
       display: flex;
-      padding-left: 75px;
+      padding: 0px 25px;
+      padding-bottom: 20px;
     }
     .link:hover{
       background-color: #6D91FF;
@@ -207,16 +201,8 @@
       fill: #fff;
       width: 40px;
     }
-    h3 {
-      color: white;
-      white-space: nowrap;
-      justify-content: center;
-      font-size: 30px;
-      padding-top: 3px;
-      }
     h2{
       white-space: nowrap;
-      text-overflow: ellipsis;
       }
     .link-text {
       white-space: nowrap;
@@ -232,5 +218,8 @@
       width: 40px;
       text-align: left;
       white-space: nowrap;
+    }
+    td{
+      margin: 0px 50px;
     }
     </style>
